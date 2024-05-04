@@ -1,0 +1,46 @@
+a{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+  
+.gradient-radial {
+    background: radial-gradient(circle at 0% 0%, #3d9dd9, #94d7f2);
+}
+
+
+.header-title{
+    color: white;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.clicked .navbar-toggler-icon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' d='M4 4L20 20M4 20l16-16'/%3E%3C/svg%3E"
+    );
+}
+
+@media (max-width: 768px) {
+
+    .nav-item{
+        background-color: #ebf9ff; /* Cambia el color de fondo de los elementos ul solo para dispositivos móviles */
+        color: #64aac6;
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+
+
+}
