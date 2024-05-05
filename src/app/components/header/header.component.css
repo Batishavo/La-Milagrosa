@@ -6,6 +6,7 @@ a{
 }
   
 .gradient-radial {
+    padding: 10px;
     background: radial-gradient(circle at 0% 0%, #3d9dd9, #94d7f2);
 }
 
@@ -33,14 +34,17 @@ a{
     );
 }
 
-@media (max-width: 768px) {
-
-    .nav-item{
+@media (max-width: 991px) {
+    .nav-link{
         background-color: #ebf9ff; /* Cambia el color de fondo de los elementos ul solo para dispositivos móviles */
         color: #64aac6;
         margin-bottom: 5px;
         padding-left: 10px;
     }
 
-
+    .nav-link.active {
+        font-weight: bold; /* Texto en negrita */
+        color: white; /* Color de background-color: #64aac6; /* Color de fondo */
+        background-color: #64aac6;
+    }
 }
