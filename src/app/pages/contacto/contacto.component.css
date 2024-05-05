@@ -1,0 +1,14 @@
+.banner{
+    width: 100%;
+    max-height: 50px;
+    background-color: #419fda;
+}
+
+.custom-icon {
+    transform: scale(3);/* Ajusta el tamaño según sea necesario */
+    color: #585858; /* Color personalizado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

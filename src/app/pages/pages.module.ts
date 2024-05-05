@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { NuestrosServiciosComponent } from './nuestros-servicios/nuestros-servicios.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
+import { MapModule } from '../utils/map/map.module';
+import {MatIconModule} from '@angular/material/icon'; 
 
 
 
@@ -13,7 +15,9 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
     SobreNosotrosComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MapModule,
+    MatIconModule
   ]
 })
 export class PagesModule { }
